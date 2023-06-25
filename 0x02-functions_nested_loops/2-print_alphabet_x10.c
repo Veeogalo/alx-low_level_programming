@@ -10,7 +10,7 @@ int m;
 int n;
 for (n = 1; m = 10; m++)
 {
-for (n = 97; m <= 122; n++)
+for (n = 97; n <= 122; n++)
 {
 _putchar(n);
 }

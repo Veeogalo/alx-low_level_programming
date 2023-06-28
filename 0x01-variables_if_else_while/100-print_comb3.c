@@ -1,24 +1,35 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: prints a combination of 2 digits
- * Return: Always 0
- */
+* main - Entry point
+* Description: prints a combination of 2 digits
+* Return: Always 0
+*/
 int main(void)
 {
-int n, m;
-for (n = 0; n < 10; n++)
+int n = '0';
+int m = '0';
+while (n <= '9')
 {
-for (m = 1; m < 10; m++)
+while (m <= '9')
 {
-putchar(n % 10 + '0');
-putchar(m % 10 + '0');
-if (n == 9 && m == 9)
-	continue;
+if (!(n > m) || n == m)
+{
+putchar(n);
+putchar(m);
+if (n == '8' && m == '9')
+{
+putchar('\n');
+}
+else
+{
 putchar(',');
 putchar(' ');
 }
 }
-putchar('\n');
+m++;
+}
+m = '0';
+n++;
+}
 return (0);
 }

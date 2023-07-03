@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-* main - Entry point
-* Description: checks for uppoercase character
+* _isupper - checks for uppoercase character
 * @c: input as an integer
 * Return: 1 if uppercase,0 if otherwise
 */

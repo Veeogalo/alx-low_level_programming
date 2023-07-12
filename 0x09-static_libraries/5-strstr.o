@@ -1,0 +1,9 @@
+#include "main.h"
+/**
+* *_strstr - checks bytes in a substring
+* @haystack: string
+@needle:substring
+*/
+char *_strstr(char *haystack, char *needle)
+{
+}

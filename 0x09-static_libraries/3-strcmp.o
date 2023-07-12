@@ -1,0 +1,8 @@
+#include "main.h"
+/**
+*_strcmp - compares
+*@s1: character to be compared
+*s2:character to be compared to
+*/
+int _strcmp(char *s1, char *s2)
+{}

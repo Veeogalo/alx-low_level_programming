@@ -1,0 +1,9 @@
+#include "main.h"
+/**
+**_memcpy - prints
+*@dest: destination
+*@src:source
+*Return:
+*/
+char *_memcpy(char *dest, char *src, unsigned int n)
+{}

@@ -1,0 +1,9 @@
+#include "main.h"
+/**
+**_strpbrk - prints
+*@s - string
+*@accept: input charatcer
+*/
+char *_strpbrk(char *s, char *accept)
+{
+}

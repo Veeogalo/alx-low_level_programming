@@ -1,0 +1,8 @@
+#include "main.h"
+/**
+*_islower - prints alphaebts in lowercase
+*@c:input as integer
+*Return: Always
+*/
+int _islower(int c)
+{}

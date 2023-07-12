@@ -1,0 +1,7 @@
+#include "main.h"
+/**
+*_atoi - prints
+*@s:string
+*/
+int _atoi(char *s)
+{}

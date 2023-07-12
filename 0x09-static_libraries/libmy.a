@@ -1,0 +1,177 @@
+!<arch>
+0-isupper.o/    0           0     0     644     164       `
+#include "main.h"
+/**
+*_isupper - checks if the character is uppercase
+* @c:character to be checked
+* Return: if character is uppercase
+ */
+int _isupper(int c)
+{
+}
+0-memset.o/     0           0     0     644     23        `
+#include "main.h"
+/**
+
+
+0-strcat.o/     0           0     0     644     126       `
+#include "main.h"
+/**
+**_strcat -
+*@dest:destination
+*src:source
+Return: Always 0
+*/
+char *_strcat(char *dest, char *src)
+{
+}
+100-atoi.o/     0           0     0     644     74        `
+#include "main.h"
+/**
+*_atoi - prints
+*@s:string
+*/
+int _atoi(char *s)
+{}
+1-isdigit.o/    0           0     0     644     118       `
+#include "main.h"
+/**
+* _isdigit - prints last digit
+*@c:input as integer
+*Return:Always 0
+*/
+int _isdigit(int c)
+{
+}
+1-memcpy.o/     0           0     0     644     142       `
+#include "main.h"
+/**
+**_memcpy - prints
+*@dest: destination
+*@src:source
+*Return:
+*/
+char *_memcpy(char *dest, char *src, unsigned int n)
+{}
+1-strncat.o/    0           0     0     644     151       `
+#include "main.h"
+/**
+**_strncat - concantes
+*@dest:destination
+*@src: source
+*@n: input as integer
+*/
+char *_strncat(char *dest, char *src, int n)
+{}
+
+2-strchr.o/     0           0     0     644     0         `
+2-strlen.o/     0           0     0     644     73        `
+#include "main.h"
+/**
+* _strlen - 
+*@s:string
+*/
+int _strlen(char *s)
+{}
+
+2-strncpy.o/    0           0     0     644     0         `
+3-islower.o/    0           0     0     644     127       `
+#include "main.h"
+/**
+*_islower - prints alphaebts in lowercase
+*@c:input as integer
+*Return: Always
+*/
+int _islower(int c)
+{}
+
+3-puts.o/       0           0     0     644     106       `
+#include "main.h"
+/**
+*_puts - print single digit
+*@s:string
+*return: Always 0
+*/
+void _puts(char *s)
+{
+}
+3-strcmp.o/     0           0     0     644     143       `
+#include "main.h"
+/**
+*_strcmp - compares
+*@s1: character to be compared
+*s2:character to be compared to
+*/
+int _strcmp(char *s1, char *s2)
+{}
+
+3-strspn.o/     0           0     0     644     74        `
+#include "main.h"
+/**
+*
+*/
+unsigned int _strspn(char *s, char *accept)
+{}
+4-isalpha.o/    0           0     0     644     116       `
+#include "main.h"
+/**
+*_isalpha - prints alphabets
+*@c:input as integer
+*Return: Always 0
+*/
+int _isalpha(int c)
+{}
+4-strpbrk.o/    0           0     0     644     126       `
+#include "main.h"
+/**
+**_strpbrk - prints
+*@s - string
+*@accept: input charatcer
+*/
+char *_strpbrk(char *s, char *accept)
+{
+}
+5-strstr.o/     0           0     0     644     152       `
+#include "main.h"
+/**
+* *_strstr - checks bytes in a substring
+* @haystack: string
+@needle:substring
+*/
+char *_strstr(char *haystack, char *needle)
+{
+}
+6-abs.o/        0           0     0     644     98        `
+#include "main.h"
+/**
+* _abs - prints absolute digit
+* @n:input as integer
+*/
+int _abs(int n)
+{
+}
+9-strcpy.o/     0           0     0     644     111       `
+#include "main.h"
+/**
+* *_strcpy
+*@dest:destination
+@src:copy from
+*/
+char *_strcpy(char *dest, char *src)
+{
+}
+
+_putchar.o/     0           0     0     644     239       `
+#include <unistd.h>
+/**
+* _putchar - writes the character c to stdout
+* @c: The character to print
+*
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
+*/
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
+

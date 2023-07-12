@@ -1,0 +1,9 @@
+#include "main.h"
+/**
+**_strncat - concantes
+*@dest:destination
+*@src: source
+*@n: input as integer
+*/
+char *_strncat(char *dest, char *src, int n)
+{}

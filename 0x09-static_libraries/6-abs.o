@@ -1,0 +1,8 @@
+#include "main.h"
+/**
+* _abs - prints absolute digit
+* @n:input as integer
+*/
+int _abs(int n)
+{
+}

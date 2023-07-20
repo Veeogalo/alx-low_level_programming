@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* main - Entry point
 * _isalpha - returns 1 if an input in alphabet and 0 if otherwise
+* @c:input as an integer
 * Return: Always 1 (Success)
 */
 int _isalpha(int c)

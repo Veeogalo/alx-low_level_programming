@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-* main - Entry point
 * print_sign - Returns 1 if input is positive,0 if 0 and -1 is negative
 * @n: the input number as an integer
 * Return: 1 (positve). 0 (0). -1 (negative).

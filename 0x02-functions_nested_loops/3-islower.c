@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* main - Entry point
 * _islower - shows 1 if the input is lowercase and 0 if another
+* @c:inpt as integer
 * Return: Always 1 (Success)
 */
 int _islower(int c)

@@ -15,7 +15,7 @@ for (m = '1'; m <= '8'; m++)
 {
 for (n = '2'; n <= '9'; n++)
 {
-if (i != m || i != n && m != n)
+if (!(i == m && i == n && m == n ))
 putchar(i);
 putchar(m);
 putchar(n);

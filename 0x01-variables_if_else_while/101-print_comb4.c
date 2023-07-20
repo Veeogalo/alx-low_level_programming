@@ -6,30 +6,24 @@
 */
 int main(void)
 {
-int m = 0;
-int n = 0;
-int k = 0;
-while(m <= 9)
+int i = '0';
+int m = '1';
+int n = '2';
+for (i = '0'; i <= '7'; i++)
 {
-while(n <= 9)
+for (m = '1'; m <= '8'; m++)
 {
-while(k <= 9)
+for (n = '2'; n <= '9'; n++)
 {
-if (!(m > n || k > n))
+if (i != m || i != n && m != n)
+putchar(i);
 putchar(m);
 putchar(n);
-putchar(k);
-if (m == 7 && n == 8 || k == 9)
-{
-putchar('\n');
-}
-else
-{
 putchar(',');
 putchar(' ');
 }
 }
 }
-}
+putchar('\n');
 return (0);
 }

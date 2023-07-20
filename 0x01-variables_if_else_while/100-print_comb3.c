@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Entry point
+ * main - Entry point
 * Description: prints a combination of 2 digits
 * Return: Always 0
 */

@@ -1,1 +1,1 @@
-This readme is on recursion
+This readme solves recursion exercises
